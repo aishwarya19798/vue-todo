@@ -68,12 +68,11 @@ export default {
 body {
   background-color: rgb(0, 7, 14);
   /* #ffd777,#797979,#424A5D,#68DF; */
-  color: wheat;
+  color: aliceblue;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   letter-spacing: 1.5px;
   display: flex;
   justify-content: center;
-  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -99,7 +98,7 @@ div {
 }
 #app{
   display: grid;
-  min-height: 100vh;
+  min-height: 90vh;
   align-content: space-between;
 }
 .credits{
