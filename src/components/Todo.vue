@@ -41,9 +41,6 @@ div {
   justify-content: space-between;
   padding:5px 0;
 }
-div p{
-    font-size: 17px;
-}
 div button {
   border: 1px solid transparent;
   border-radius: 50px;

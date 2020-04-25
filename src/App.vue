@@ -81,7 +81,6 @@ input {
   border: 0;
   border-radius: 5px;
   padding: 10px;
-  font-size: 17px;
   letter-spacing: 1.5px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
