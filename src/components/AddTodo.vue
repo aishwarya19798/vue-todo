@@ -2,7 +2,7 @@
     <div>
         <form @submit="addTodo">
            <input type="text" name="title" v-model="title">
-           <button type="submit">Add</button>
+           <button type="submit"><img src="/assets/pencil.svg"></button>
         </form>
     </div>
 </template>
@@ -33,5 +33,21 @@ export default {
 </script>
 
 <style scoped>
-
+    div{
+        padding-top:15px;
+    }
+    div form{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    div form input{
+        width:100%;
+        border:0;
+        border-radius: 5px;
+    }
+    div button {
+        border:1px solid transparent;
+        background-color: transparent;
+    }
 </style>
