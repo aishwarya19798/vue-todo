@@ -103,7 +103,7 @@ div {
 }
 .credits{
   text-align: center;
-  padding-bottom: 10px;
+  padding:10px 0;
 }
 .content{
   padding:0 10px;
